@@ -1,0 +1,34 @@
+.galeria-img{
+    object-fit: cover;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.galeria-img:hover{
+    transform: scale(1.02);
+}
+
+.galeria-img{
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+}
+audio{
+    margin: 0 auto;
+    display: block; 
+
+}
+.h1centrado{
+    font-size: 2.3em;
+    color: #e44f26;
+    background: black;
+    margin: auto;
+    border-radius: 100px;
+}
+.galeria-balon{
+    width: 100%;
+    margin: auto;
+    max-width: 200px;
+    padding: 20px;
+}

@@ -1,0 +1,45 @@
+.pre1{
+    padding: 10px;
+    color: red;
+    background: #E3E6E9;
+    box-shadow: inset 0px 0px 9px #B9C1CB; 
+    border-radius:6px ;
+}
+.pre2{
+    position: relative;
+    padding:14px 29px 8px 19px;
+    margin-top: 17px;
+    margin-bottom: 4px;
+    border-radius: 6px;
+    box-shadow: inset 0px 0px 9px #B9C1CB; 
+
+}
+.btn-escritura{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    background: #e44f26;
+    color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#editable{
+    overflow:auto;
+}
+#columnas{
+    column-count:4;
+    column-gap:20px;
+    column-rule:4px dotted gray;
+ }
+ .ctexto{
+    position: relative;
+    padding:14px 29px 8px 19px;
+    margin-top: 17px;
+    margin-bottom: 4px;
+    border-radius: 6px;
+    box-shadow: inset 0px 0px 9px #B9C1CB;
+
+ }

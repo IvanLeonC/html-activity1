@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/favicon-html.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/multimedia.css">
+    <link href="https://file.myfontastic.com/djMntAL7WxbT8aocXcNJne/icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Formulario | IvanLeonC</title>
+</head>
+<body>
+    <header class="menu-header">
+        <div class="contenedor contenedor-flex">
+          <div class="logo-contenedor columna columna-50"> 
+          </div>
+          </div>
+        </div>
+      </header>
+      <nav class="menu-nav">
+          <div class="contenedor contenedor-flex">
+              <span class="icon-menu" id="btnmenu"></span>
+              <ul class="menu" id="menu">
+                <li class="menu_item">
+                    <a href="index.html" class="menu_link ">Inicio</a>
+                </li>
+                <li class="menu_item">
+                    <a href="multimedia.html" class="menu_link ">Multimedia</a>
+                </li>
+                <li class="menu_item"> 
+                    <a href="escritura.html" class="menu_link ">Escritura</a>
+                </li>
+                <li class="menu_item">
+                    <a href="formulario.html" class="menu_link menu--select">Formulario</a>
+                </li>
+              </ul>
+          </div>
+      </nav>
+      <section class="banner">
+        <img class="logoencima" src="img/logo_html5.svg" alt="Logo Fundarca"/>
+        <img src="img/bannerInicio.jpg" class="banner-img" />
+        <div class="banner-contenido">Formulario</div>
+      </section>
+      <main class="menuinicio">
+        <section class="grupo contacto">
+            <div class="contenedor contenedor-flex">
+                <div class="contacto-informacion columna-50">
+                    <br>
+                    <h3 class="columna-titulo">Información de contacto</h3>
+                    <p class="columna-txt">Soy una persona muy perseverante, amante de la música y la programación. Futuro Ingeniero Informático.</p>
+                    <p class="columna-txt"><span></span>Teléfono 1 : +57 301 541 5334</p>
+                    <p class="columna-txt"><span></span>Teléfono 2 : +57 315 494 5031</p>
+                    <p class="columna-txt"><span></span>Correo: idzivan@unimayor.edu.co</p>
+                </div>
+                <form action="" method="POST" class="formulario columna columna-50">
+                    <br>
+                    <label for="" class="formulario-label" required>BUSCAR:</label>
+                    <input type="search" class="formulario-input-txt" name="buscar" placeholder="Término a buscar"/>
+                    <label for="" class="formulario-label" required>Nombre:</label>
+                    <input type="text" class="formulario-input-txt" name="nombre" required>
+                    <label for="" class="formulario-label">Correo:</label>
+                    <input type="email" class="formulario-input-txt" name="correo" required>
+                    <label for="" class="formulario-label">Teléfono:</label>
+                    <input type="tel" class="formulario-input-txt" name="telefono" required>
+                    <label for="" class="formulario-label">Contraseña:</label>
+                    <input type="password" class="formulario-input-txt" name="telefono" required>
+                    <label for="" class="formulario-label columna columna-50">Fecha de Nacimiento:</label>
+                    <input type="date" class="formulario-input-txt" name="telefono" required>
+                    <label for="" class="formulario-label columna columna-50">Cual es tu rango:</label>
+                    <input type="range" min="1" max="7" value="2" step="1" title="Necesitamos saber..." name="adiccion"/>
+                    <label for="" class="formulario-label columna columna-50">Elige un numero:</label>
+                    <input type="number" min="100" max="9000" step="1" value="100" title="De momento el ganador..." name="comics"/>
+                    <label for="" class="formulario-label columna columna-50">Elige un color:</label>
+                    <input type="color" value="#FF0000" title="Con esta votación..." name="color_preferido"/>
+                    <label for="" class="formulario-label columna columna-50">Elige una opcion:</label>
+                    <input type="checkbox" name="destino1" value="Damasco" /> Damasco (Siria)
+                    <input type="checkbox" name="destino2" value="Kabul" checked/> Kabul (Afganistán)
+                    <input type="checkbox" name="destino3" value="Belgrado" /> Belgrado (Serbia)
+                    <label for="" class="formulario-label columna columna-50">Sube un archivo:</label>
+                    <input type="file" name="fichero" accept="image/*" />
+                    <label for="" class="formulario-label columna columna-50">Escoge tu sexo:</label>
+                    <input type="radio" name="sexo" value="Mujer" checked/> Mujer
+                    <input type="radio" name="sexo" value="Hombre"/> Hombre y sus derivados
+                    <input type="radio" name="sexo" value="NS/NC"/> No estoy muy seguro/a
+                    <label for="" class="formulario-label">Mensaje:</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10" class="formulario-textarea" required></textarea>
+                    <input type="submit" class="btn formulario-btn" value="Enviar">
+                </form>
+            </div>
+        </section>
+      </main>
+         <footer class="menu-footer">
+      <div class="contenedor contenedor-flex">
+        <div class="columna columna-50">
+          <h2 class="columna-titulo">¿Porque visitarnos?</h2>
+          <p class="columna-txt">
+            Soy una persona muy perseverante, amante de la música y la programación. Futuro Ingeniero Informático.
+          </p>
+          <p class="columna-txt"></p>
+          <p class="columna-txt"></p>
+        </div>
+        <div class="columna columna-50">
+          <h2 class="columna-titulo">Contáctanos</h2>
+          <p class="columna-txt">
+            Carrera 3A # 4 - 27 B/ Villa Marcela Piendamó, Colombia
+           </p>
+          <p class="columna-txt">Telefono: +57 301 541 5334</p>
+          <p class="columna-txt">Correo: idzivan@unimayor.edu.co</p>
+        </div>
+        <p class="copy">© 2020 AppWeb 1 | IvanLeonC</p>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+</html>
